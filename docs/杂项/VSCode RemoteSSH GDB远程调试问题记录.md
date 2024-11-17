@@ -43,3 +43,17 @@ tag:
 [vscode-cpptools/issues/4988](https://github.com/microsoft/vscode-cpptools/issues/4988)
 
 [vscode-remote-release/issues/2053](https://github.com/microsoft/vscode-remote-release/issues/2053)
+
+## 问题三 
+
+解决qt.qpa.xcb: could not connect to display问题的方法主要有以下步骤：
+
+1. 确保在远程环境中安装了图形界面工具，例如X11。如果你在Linux服务器上，通常需要安装xorg和相关依赖。
+
+2. 使用SSH连接时，添加-Y或-X选项以启用X11转发，例如：ssh -X user@remote_host。
+
+3. 确保本地机器（显示端）上已安装X服务器，比如在Windows上使用Xming或VcXsrv，并确保它们正在运行。
+
+4. 检查 $DISPLAY 环境变量是否设置正确，可以在远程终端中运行 echo $DISPLAY 查看。
+
+[如何使用vscode远程debug linux图形界面程序](https://www.cnblogs.com/mingcc/p/17283045.html)
