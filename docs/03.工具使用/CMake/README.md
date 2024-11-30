@@ -1,7 +1,7 @@
 ---
 title: 构建工具之CMake
 date: 2024-08-15
-icon: laptop-code
+#icon: /assets/icon/icons8-cmake-24.png
 hidden: true
 index: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: VSCode RemoteSSH GDB远程调试问题记录
-icon: laptop-code
+#icon: laptop-code
 date: 2024-10-20
 category:
   - 工具使用

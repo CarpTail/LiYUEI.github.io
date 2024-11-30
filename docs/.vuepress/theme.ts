@@ -1,7 +1,7 @@
 import {hopeTheme} from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import {testSidebar} from "./sidebar.js";
 import {transformUserConfigToPlugin} from "vuepress";
 
 export default hopeTheme({
@@ -17,7 +17,7 @@ export default hopeTheme({
     logo: "/logo.png",
 
     // Git 仓库和编辑链接
-    repo: "LiYUEI/LiYUEI.github.io",
+    repo: "lolimen/lolimen.github.io",
     repoLabel: "GitHub",
     repoDisplay: true,
 
@@ -34,7 +34,7 @@ export default hopeTheme({
     },
 
     // 侧边栏
-    sidebar,
+    sidebar: testSidebar,
 
     // 页脚
     footer: "默认页脚",
@@ -128,7 +128,7 @@ export default hopeTheme({
             attrs: true,
             codetabs: true,
             component: true,
-            demo: true,
+            demo: false,
             figure: true,
             imgLazyload: true,
             imgSize: true,

@@ -1,6 +1,6 @@
 ---
 title: yaml教程
-icon: laptop-code
+#icon: laptop-code
 date: 2024-08-14
 category:
   - 工具使用

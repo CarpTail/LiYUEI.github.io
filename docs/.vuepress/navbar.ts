@@ -9,23 +9,24 @@ export default navbar([
     },
     {
         text: "分类",
-        icon: "pen-to-square",
+        icon: "fa-solid fa-list",
         prefix: "/",
         children: [
             {
                 text: "计算机基础",
-                icon: "pen-to-square",
+                icon: "fa-solid fa-computer",
                 link: "01.计算机基础/",
-                children: [
-                    // {text: "苹果1", icon: "pen-to-square", link: "1"},
-                    // {text: "苹果2", icon: "pen-to-square", link: "2"},
-                ],
+                // children: [
+                //     // {text: "苹果1", icon: "pen-to-square", link: "1"},
+                //     // {text: "苹果2", icon: "pen-to-square", link: "2"},
+                // ],
             },
-            {text: "编程语言", icon: "pen-to-square", link: "02.编程语言/"},
-            {text: "工具使用", icon: "pen-to-square", link: "03.工具使用/"},
-            {text: "代码库研究", icon: "pen-to-square", link: "04.代码库研究/"},
-            {text: "Web技术", icon: "pen-to-square", link: "05.Web技术/"},
-            {text: "性能优化与高性能计算", icon: "pen-to-square", link: "06.性能优化与高性能计算/"},
+            {text: "编程语言", icon: "/assets/icon/icons8-c++-48.png", link: "02.编程语言/"},
+            {text: "工具使用", icon: "fa-solid fa-screwdriver-wrench", link: "03.工具使用/"},
+            {text: "代码库研究", icon: "fa-brands fa-github", link: "04.代码库研究/"},
+            {text: "Web技术", icon: "fa-solid fa-globe", link: "05.Web技术/"},
+            {text: "高性能", icon: "fa-solid fa-chart-line", link: "06.高性能/"},
+            {text: "其他", icon: "fa-solid fa-bars", link: "其他/"}
             // {
             //     text: "香蕉",
             //     icon: "pen-to-square",
@@ -49,7 +50,7 @@ export default navbar([
     },
     {
         text: "笔记",
-        icon: "book",
+        icon: "fa-solid fa-note-sticky",
         link: "/article/",
     },
     {

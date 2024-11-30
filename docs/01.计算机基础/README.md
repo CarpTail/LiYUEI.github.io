@@ -1,9 +1,9 @@
 ---
-title: 01.计算机基础
+title: 计算机基础
 date: 2024-08-15
-icon: laptop-code
+icon: fa-solid fa-computer
 hidden: true
-index: false
+index: true
 ---
 
 <Catalog />

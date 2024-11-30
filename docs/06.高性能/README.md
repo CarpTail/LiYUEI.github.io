@@ -1,7 +1,7 @@
 ---
-title: 06.性能优化与高性能计算
+title: 高性能
 date: 2024-08-15
-icon: laptop-code
+icon: fa-solid fa-chart-line
 hidden: true
 index: false
 ---

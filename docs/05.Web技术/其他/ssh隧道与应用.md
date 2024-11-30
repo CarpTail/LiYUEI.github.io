@@ -1,6 +1,5 @@
 ---
 title: ssh隧道与应用
-icon: laptop-code
 date: 2024-09-20
 order: 1
 category:

@@ -1,9 +1,10 @@
 ---
-title: 06.Go
+title: Go
 date: 2024-08-15
-icon: laptop-code
+#icon: fa-brands fa-golang
 hidden: true
 index: false
+order: 6
 ---
 
 <Catalog />

@@ -1,7 +1,7 @@
 ---
-title: 04.代码库研究
+title: 代码库研究
 date: 2024-08-20
-icon: laptop-code
+icon: fa-brands fa-github
 hidden: true
 index: false
 ---

@@ -1,7 +1,7 @@
 ---
-title: 03.工具使用
+title: 工具使用
 date: 2024-08-15
-icon: laptop-code
+icon: fa-solid fa-screwdriver-wrench
 hidden: true
 index: false
 ---

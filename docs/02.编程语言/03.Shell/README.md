@@ -1,9 +1,10 @@
 ---
-title: 03.Shell
+title: Shell
 date: 2024-08-15
-icon: laptop-code
+#icon: fa-brands fa-centos
 hidden: true
 index: false
+order: 3
 ---
 
 <Catalog />

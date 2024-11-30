@@ -11,9 +11,9 @@ bgImage: /assets/images/bg2.jpg
 
 projects:
   - icon: project
-    name: LiYUEI.github.io
+    name: lolimen.github.io
     desc: 个人技术文档Repo
-    link: https://github.com/LiYUEI/LiYUEI.github.io
+    link: https://github.com/lolimen/lolimen.github.io.git
 
   - icon: link
     name: 常用网站

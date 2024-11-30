@@ -1,6 +1,6 @@
 ---
 title: vscode插件
-icon: laptop-code
+#icon: laptop-code
 date: 2024-10-20
 category:
   - 工具使用
