@@ -1,1 +1,37 @@
 // place your custom styles here
+
+// 自定义<Catelog />生成目录css
+.vp-child-catalogs {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.vp-catalog-child-title {
+  font-weight: bold;
+}
+
+.vp-child-catalogs > .vp-child-catalog {
+  list-style-type: square;
+  margin-bottom: 10px;
+  color: #0184BC;
+}
+
+.vp-catalogs > .vp-catalog {
+  list-style-type: square;
+  margin-bottom: 10px;
+  color: #0184BC;
+}
+
+h3[class="vp-catalog-child-title has-children"]{
+  color: #282c34;
+}
+
+//.vp-child-catalogs::after {
+//  content: "";
+//  position: relative;
+//  left: 0;
+//  bottom: 0;
+//  width: 100%;
+//  height: 2px;
+//  background-color: #000;
+//}

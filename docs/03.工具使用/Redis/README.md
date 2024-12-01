@@ -20,6 +20,10 @@ index: false
 
 - [Redis - 听说 Dragonfly 宣称比我快 25 倍](https://juejin.cn/post/7155479877741707295)
 
+- [工作中使用Redis的10种场景](https://www.cnblogs.com/12lisu/p/17972104)
+
+- [Redis分布式——主从复制、sentinel、集群](https://bbs.huaweicloud.com/blogs/303870)
+
 ### Redis客户端
  
 Python:
