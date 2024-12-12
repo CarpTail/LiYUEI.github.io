@@ -126,12 +126,12 @@ export default hopeTheme({
         mdEnhance: {
             align: true,
             attrs: true,
-            codetabs: true,
+            // codetabs: true,
             component: true,
             demo: false,
-            figure: true,
-            imgLazyload: true,
-            imgSize: true,
+            // figure: true,
+            // imgLazyload: true,
+            // imgSize: true,
             include: true,
             mark: true,
             markmap: true,
@@ -152,7 +152,7 @@ export default hopeTheme({
             ],
             sub: true,
             sup: true,
-            tabs: true,
+            // tabs: true,
             tasklist: true,
             vPre: true,
 
@@ -208,7 +208,7 @@ export default hopeTheme({
              *
              * @default true
              */
-            progress: false,
+            progress: true,
         },
 
         // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释

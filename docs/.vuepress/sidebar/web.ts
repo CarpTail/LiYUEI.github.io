@@ -37,6 +37,13 @@ const sidebarWeb: object = {
             children: "structure"
         },
         {
+            text: "安全",
+            icon: "fa-solid fa-shield-halved",
+            prefix: "安全/",
+            collapsible: true,
+            children: "structure"
+        },
+        {
             text: "其他",
             icon: "fa-solid fa-bars",
             prefix: "其他/",
