@@ -110,15 +110,14 @@ export default hopeTheme({
         //   serverURL: "https://waline-comment.vuejs.press",
         // },
 
-        // 开启搜索功能
-        searchPro: true,
-
         components: {
             components: [
-                "Badge",
-                "VPCard",
-                "PDF",
-                "BiliBili",
+                "Badge",        //多彩的徽章组件
+                "BiliBili",     //嵌入 BiliBili 视频
+                "CodePen",      //嵌入 CodePen 演示
+                "SiteInfo",     //显示站点
+                "PDF",          //嵌入 PDF 查看器
+                "VPCard",       //一个卡片组件
             ],
         },
 
